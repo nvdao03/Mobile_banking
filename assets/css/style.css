@@ -48,6 +48,13 @@ a {
     background-color: #fff;
 }
 
+.heading-section {
+    color: #212832;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
 /* ========== Navbar ========== */
 .header {
     padding-top: 4.2rem;
@@ -125,10 +132,7 @@ a {
 }
 
 .navbar__sign:hover {
-    color: #212832;
-    cursor: pointer;
-    border: 1px solid #212832;
-    background-color: #fff;
+    opacity: 0.9;
 }
 
 /* ========== Hero ========== */
@@ -321,6 +325,7 @@ a {
 /* ========== Works ========== */
 .works {
     padding-top: 13rem;
+    padding-bottom: 3rem;
 }
 
 .works-body {
@@ -417,4 +422,170 @@ a {
     font-weight: 400;
     line-height: 1.75;
     margin-top: 1.6rem;
+}
+
+/* ========== Card ========== */
+.card {
+    padding-top: 13rem;
+    padding-bottom: 3rem;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    column-gap: 13rem;
+}
+
+.card-info {
+    width: 40%;
+}
+
+.card__heading {
+    margin-top: 1.2rem;
+}
+
+.card__desc {
+    color: #696d76;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
+.card-list {
+    margin-top: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.8rem;
+}
+
+.card-item {
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+}
+
+.card-item__dot {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: #7264d6;
+    border-radius: 50%;
+}
+
+.card-item__text {
+    color: #212832;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+}
+
+.card-cta {
+    --height: 5.8rem;
+
+    display: inline-block;
+    min-width: 14.9rem;
+    height: var(--height);
+    color: #fff;
+    margin-top: 3.8rem;
+    border-radius: 0.8rem;
+    background: #212832;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: var(--height);
+}
+
+.card-media {
+    position: relative;
+    width: 49%;
+    height: 42.5rem;
+}
+
+.card-media__main {
+    position: absolute;
+    top: 4.8rem;
+    right: 8.8rem;
+    bottom: 5.5rem;
+    left: 0;
+}
+
+.card-money {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    width: 27.6rem;
+    padding: 2.3rem 1.3rem;
+    border-radius: 1.2rem;
+    background: #fff;
+    box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.07);
+}
+
+.card-media__plane {
+    width: 4rem;
+    height: 4rem;
+}
+
+.card-money__block {
+    font-family: "Inter", sans-serif;
+    margin-left: 1.4rem;
+}
+
+.card-money__title {
+    color: #212832;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.card-money__desc {
+    color: #696d76;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.4rem;
+}
+
+.card-money__price {
+    font-family: "Inter", sans-serif;
+    margin-left: auto;
+}
+
+.card-money__saving {
+    color: #212832;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.card-money__month {
+    color: #696d76;
+    margin-top: 0.3rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card-income {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 12rem;
+    height: 12rem;
+    padding: 1.5rem;
+    border-radius: 1.6rem;
+    background: #439f90;
+}
+
+.card-income__title {
+    margin-top: 1.4rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.card-income__meney {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 0.6rem;
 }
