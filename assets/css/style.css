@@ -944,3 +944,89 @@ a {
 .blog-item-info__link:hover {
     color: #7264d6;
 }
+
+/* ========== App ========== */
+.app {
+    position: relative;
+    padding-top: 14rem;
+    padding-bottom: 3rem;
+}
+
+.app-body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem 0;
+    border-radius: 2.4rem;
+    background: #7264d6;
+}
+
+.app-intro__decor {
+    background-color: #fff;
+}
+
+.app-intro__text {
+    color: #fff;
+}
+
+.app__heading {
+    color: #fff;
+    margin-top: 1.2rem;
+}
+
+.app___desc {
+    width: 43.5rem;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-top: 1.8rem;
+}
+
+.app-row {
+    margin-top: 3.8rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 1.6rem;
+}
+
+.app__star {
+    position: absolute;
+
+    animation-name: speed;
+    animation-duration: 0.9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.app-body > .app__star:nth-of-type(1) {
+    top: 4.9rem;
+    left: 11.2rem;
+}
+
+.app-body > .app__star:nth-of-type(2) {
+    top: 4.9rem;
+    right: 11.2rem;
+}
+
+.app-body > .app__star:nth-of-type(3) {
+    left: 16.6rem;
+    bottom: 4.9rem;
+}
+
+.app-body > .app__star:nth-of-type(4) {
+    right: 16.6rem;
+    bottom: 4.9rem;
+}
+
+@keyframes speed {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
+}
