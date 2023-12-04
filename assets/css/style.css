@@ -699,3 +699,145 @@ a {
     line-height: 1.66;
     margin-top: 2rem;
 }
+
+/* ========== Feedback ========== */
+.feedback {
+    padding-top: 13rem;
+    padding-bottom: 3rem;
+}
+
+.feedback__intro {
+    justify-content: center;
+}
+
+.feedback__heading {
+    text-align: center;
+    margin-top: 1.2rem;
+}
+
+.feedback__desc {
+    display: block;
+    width: 43.5rem;
+    color: #696d76;
+    text-align: center;
+    margin-top: 1.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.feedback-list {
+    display: flex;
+    margin-top: 7rem;
+}
+
+.feedback-item {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+}
+
+.feedback-info__text {
+    position: relative;
+    width: 57rem;
+    padding: 4.8rem 2.8rem;
+    background-color: #fff;
+    border: 1px solid #dfe2e8;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.feedback-info__text::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 6.5rem;
+    height: 6.5rem;
+    border: 1px solid;
+    background-color: #fff;
+    border-color: transparent transparent #dfe2e8 #dfe2e8;
+    rotate: -45deg;
+    bottom: -1rem;
+    left: 48%;
+    transform: translateX(-50%);
+
+    transition-property: background, filter;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+}
+
+.feedback-info__text:hover,
+.feedback-info__text:hover::after {
+    border: 1px solid #fff;
+    background: #fff;
+    filter: drop-shadow(0px 22px 54px rgba(0, 0, 0, 0.07));
+}
+
+.feedback-info__chat {
+    width: 51.4rem;
+    color: #696d76;
+    text-align: center;
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.54;
+}
+
+.feedback-info__name {
+    width: 100%;
+    text-align: center;
+    margin-top: 10.1rem;
+}
+
+.feedback-info__img {
+    display: inline-block;
+    width: 10.4rem;
+    height: 10.4rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback-info__heading {
+    color: #070052;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38;
+    margin-top: 2rem;
+}
+
+.feedback-info__desc {
+    color: #696d76;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+    margin-top: 0.2rem;
+}
+
+.feedback-row {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.2rem;
+    margin-top: 3.8rem;
+}
+
+.feedback-square {
+    display: inline-block;
+    width: 2.2rem;
+    height: 0.6rem;
+    border-radius: 0.1rem;
+    border: 1px solid #9b9fab;
+}
+
+.feedback-square--action {
+    background: #7264d6;
+}
