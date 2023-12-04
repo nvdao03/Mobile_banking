@@ -5,10 +5,12 @@
 html {
     font-size: 62.5%;
     font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
     font-size: 1.6rem;
+    scroll-behavior: smooth;
 }
 
 /* Commond */
@@ -1029,4 +1031,111 @@ a {
     to {
         rotate: 360deg;
     }
+}
+
+/* ========== Footer ========== */
+.footer {
+    padding-top: 7rem;
+}
+
+.footer-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 10rem;
+}
+
+.footer-item__heading,
+.footer-item__title {
+    color: #212832;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+}
+
+.footer-row,
+.footer-item__desc {
+    margin-top: 2.4rem;
+}
+
+.footer-col + .footer-col {
+    margin-top: 1rem;
+}
+
+.footer-col__link,
+.footer-item__desc {
+    color: #6a6e78;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
+.footer-item__title {
+    margin-top: 4.8rem;
+}
+
+.forms-subscibe {
+    display: flex;
+    column-gap: 2rem;
+    margin-top: 2.4rem;
+}
+
+.form-email {
+    width: 27rem;
+    height: 5.2rem;
+    color: #8e919a;
+    padding: 1.2rem;
+    border-radius: 0.6rem;
+    border: 1px solid #8e919a;
+}
+
+.form-email::placeholder {
+    color: #8e919a;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.form-email:focus {
+    outline: none;
+}
+
+.form-btn {
+    min-width: 11.3rem;
+    height: 5.2rem;
+    border-radius: 0.6rem;
+    background: #7264d6;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-contact {
+    display: flex;
+    column-gap: 10rem;
+    margin-top: 5.4rem;
+}
+
+.footer-contact__link {
+    color: #6a6e78;
+    text-align: justify;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+    text-decoration-line: underline;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.8rem 0;
+    margin-top: 2.8rem;
+    background: #7264d6;
+}
+
+.copyright__text {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
 }
