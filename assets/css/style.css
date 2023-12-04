@@ -589,3 +589,113 @@ a {
     font-weight: 600;
     margin-top: 0.6rem;
 }
+
+/* ========== Card Banking ========== */
+.card-banking {
+    padding-top: 13rem;
+    padding-bottom: 3rem;
+}
+
+.card-banking-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-banking-left {
+    position: relative;
+    width: 40%;
+    height: 60rem;
+}
+
+.card-banking-left__bgr {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.card-banking-left__img {
+    position: relative;
+    display: inline-block;
+    width: 41.3rem;
+    height: 60rem;
+    object-fit: cover;
+    bottom: 0;
+    right: 2.8rem;
+    left: 2.9rem;
+}
+
+.card-banking-choose {
+    width: 28.1rem;
+    position: absolute;
+    bottom: 5.7rem;
+    left: 26.3rem;
+    padding: 2.8rem 2.9rem;
+    background: #fff;
+    filter: drop-shadow(0px 44px 48px rgba(0, 0, 0, 0.1));
+    border-radius: 0.4rem;
+}
+
+.card-banking-choose__heading {
+    width: 22.4rem;
+    color: #212832;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+}
+
+.card-banking-choose__row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.8rem;
+    margin-top: 2rem;
+}
+
+.card-banking-choose__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2fa;
+    border-radius: 0.4rem;
+    background: #f2f2fa;
+    width: 6.3rem;
+    height: 4.8rem;
+}
+
+.card-banking-choose__item:last-child {
+    background: #f9ea63;
+}
+
+.card-banking-choose__link {
+    display: inline-block;
+    padding: 1.2rem;
+}
+
+.card-banking-dollars {
+    position: absolute;
+    right: -2.6rem;
+    bottom: 16.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    height: 9rem;
+    background-color: #7264d6;
+    border-radius: 50%;
+}
+
+.card-banking-right {
+    width: 40%;
+}
+
+.card-banking-choose__heading {
+    margin-top: 1.2rem;
+}
+
+.card-banking__desc {
+    color: #696d76;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+    margin-top: 2rem;
+}
