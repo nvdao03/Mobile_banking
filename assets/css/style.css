@@ -227,6 +227,8 @@ a {
     text-align: center;
     line-height: var(--height);
     margin-right: 0.8rem;
+    outline: none;
+    border: none;
 }
 
 .hero-content__text {
